@@ -1,0 +1,49 @@
+*{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+}
+
+div {
+    display: flex;
+}
+
+#divs {
+    display: inline-block;
+    color: brown;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.div1 {
+    color: aqua;
+    border: 2px solid gray;
+}
+
+.list1{
+    color: blueviolet;
+}
+
+#likes7 {
+    color: chartreuse;
+}
+
+#divss {
+    border: 2px solid brown;
+    width: 20%;
+    color: rgb(18, 45, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+#dislikes3 {
+    color: brown;
+}
+
+.lists2{
+    color: burlywood;
+}
