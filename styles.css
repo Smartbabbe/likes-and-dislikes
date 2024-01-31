@@ -1,22 +1,22 @@
 *{
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 2%;
+    margin: 9px;
 }
 
-div {
-    display: flex;
+.div1, .div2 {
+    width: 70%;
+    max-width: 400px;
 }
 
 #divs {
     display: inline-block;
     color: brown;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: fit-content;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#divs h1, #divss h1 {
+    text-align: center;
 }
 
 .div1 {
@@ -34,10 +34,8 @@ div {
 
 #divss {
     border: 2px solid brown;
-    width: 20%;
     color: rgb(18, 45, 70);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: block;
 }
 
 #dislikes3 {
@@ -47,3 +45,7 @@ div {
 .lists2{
     color: burlywood;
 }
+
+ul, ol {
+    padding-left: 5px;
+} 
